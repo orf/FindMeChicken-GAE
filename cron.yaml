@@ -1,0 +1,4 @@
+cron:
+- description: Flush old and possibly stale ChickenPlaces
+  url: /cron/flush_old
+  schedule: every 24 hours
